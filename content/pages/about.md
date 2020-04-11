@@ -1,3 +1,5 @@
 Title: About Me
 
-Editing my “about me” on my iPad. 
+- Grew up in Beaverton, OR
+- BA from George Washington University (2007)
+- Living in Washington, DC

@@ -3,13 +3,12 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Brandon Nedwek'
-SITENAME = 'My Blog'
+SITENAME = 'Brandon Nedwek finally has a Blog'
 SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
-
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -26,8 +25,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/bnedwek/'),
+          ('Instagram', 'https://www.instagram.com/bnedwek/'),
+          ('Twitter', 'https://twitter.com/brandonnedwek'))
 
 DEFAULT_PAGINATION = 10
 

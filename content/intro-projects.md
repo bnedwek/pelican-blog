@@ -8,7 +8,7 @@ Here's a little rundown of some ongoing projects I've been working on:
 
 I have a lot of interest Unix and non-x86 architectures so I've always been drawn to old workstations. As I've become more aware of the role Sun Microsystems played in defining the standard network stack we still use today I developed an interest in owning a SPARC machine.
 
-See more about this project [here]({filename}/ipx.md).
+See more about this project [here]({tag}/sunipx).
 
 ## Quadro 700
 
@@ -18,6 +18,8 @@ To get running on this Mac:
 
 - A/UX
 - A MIDI sequencer (Performer?)
+
+See more about this project [here]({tag}quadro700).
 
 ## Mac Mini Server cluster
 
