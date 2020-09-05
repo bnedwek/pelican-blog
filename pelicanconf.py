@@ -3,10 +3,14 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Brandon Nedwek'
-SITENAME = 'Brandon Nedwek finally has a Blog'
+SITENAME = 'Tinkering'
 SITEURL = ''
 
 PATH = 'content'
+
+ARTICLE_PATHS = ['articles',]
+ARTICLE_URL = 'articles/{slug}.html'
+ARTICLE_SAVE_AS = 'articles/{slug}.html'
 
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
@@ -17,6 +21,11 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+THEME = 'brutalist'
+FIRST_NAME = 'Brandon'
+ATTRIBUTION = True
+SUMMARY_MAX_LENGTH = 50
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -32,4 +41,4 @@ SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/bnedwek/'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True

@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Tinkering - Tags</title>
+          <title>Tinkering</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
         <!-- twitter card metadata -->
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="Ongoing projects">
+<meta name="twitter:description" content="A little rundown of my current tinkering.">
         <!-- OG Tags -->
+<meta property="og:url" content="../articles/ongoing-projects.html"/>
+<meta property="og:title" content="Tinkering | Ongoing projects" />
+<meta property="og:description" content="A little rundown of my current tinkering." />
         <!-- favicon -->
         <!-- moment.js for date formatting -->
-        <script src="./theme/js/moment.js"></script>
+        <script src="../theme/js/moment.js"></script>
         <!-- css -->
-        <link rel="stylesheet" type="text/css" href="./theme/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="../theme/css/main.css" />
 		<script>
 			
                 /*! grunt-grunticon Stylesheet Loader - v2.1.2 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
     
     (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
                 
-                grunticon(["./theme/css/icons.data.svg.css", "./theme/css/icons.data.png.css", "./theme/css/icons.fallback.css"]);
+                grunticon(["../theme/css/icons.data.svg.css", "../theme/css/icons.data.png.css", "../theme/css/icons.fallback.css"]);
             </script>
-        <noscript><link href="./theme/css/icons.fallback.css" rel="stylesheet"></noscript>
+        <noscript><link href="../theme/css/icons.fallback.css" rel="stylesheet"></noscript>
         <!-- menu toggle javascript -->
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", initMenu);
@@ -34,6 +40,10 @@
                     });
             };
         </script>
+
+    <meta name="description" content="A little rundown of my current tinkering." />
+
+
 </head>
 <body>
     <div role="banner" id="masthead">
@@ -42,27 +52,58 @@
             <a href="#menu" id="menu-link">more stuff</a>
             <nav id="menu">
                 <ul>
-                        <li><a href="./pages/about-me.html">about-me</a></li>
-                        <li><a href="./pages/things-i-want-to-learn.html">things-i-want-to-learn</a></li>
-                            <li><a href="./category/projects.html">Projects</a></li>
+                        <li><a href="../pages/about-me.html">about-me</a></li>
+                        <li><a href="../pages/things-i-want-to-learn.html">things-i-want-to-learn</a></li>
+                            <li class="active"><a href="../category/projects.html">Projects</a></li>
                 </ul>
             </nav>
         </header>
     </div>
         <div class="page" role="main">
-<div class="page-title">
-        <h1>tags</h1>
-</div>
-<div class="articles">
-    <ul>
-        <li><a href="./tag/sun.html">sun</a> <span class="count">(3)</span></li>
-        <li><a href="./tag/solaris.html">solaris</a> <span class="count">(2)</span></li>
-        <li><a href="./tag/retro-computing.html">retro computing</a> <span class="count">(4)</span></li>
-        <li><a href="./tag/quadro700.html">quadro700</a> <span class="count">(1)</span></li>
-        <li><a href="./tag/macintosh.html">macintosh</a> <span class="count">(1)</span></li>
-        <li><a href="./tag/sunipx.html">sunipx</a> <span class="count">(1)</span></li>
-    </ul>
-</div>
+  <div class="article" role="article">
+    <article>
+        <footer>
+            <a name="top"></a>
+            <p>
+              <time datetime=" 2020-03-13 23:38:00-04:00">
+                <script>document.write(moment('2020-03-13 23:38:00-04:00').format('LL'));</script>
+              </time>
+            </p>
+        </footer>
+        <header>
+          <h2>
+            Ongoing projects
+          </h2>
+        </header>
+      <div class="content">
+         <p>Here's a little rundown of some ongoing projects I've been working on:</p>
+<h2>Sun IPX</h2>
+<p>I have a lot of interest Unix and non-x86 architectures so I've always been drawn to old workstations. As I've become more aware of the role Sun Microsystems played in defining the standard network stack we still use today I developed an interest in owning a SPARC machine.</p>
+<p>See more about this project <a href="../tag/sunipx.html">here</a>.</p>
+<h2>Quadro 700</h2>
+<p>I remember playing on my dad's 68k Mac when I was a little kid but I didn't have any conscious nostalgia for particular aspects of the Mac SYstem 7 era.</p>
+<p>To get running on this Mac:</p>
+<ul>
+<li>A/UX</li>
+<li>A MIDI sequencer (Performer?)</li>
+</ul>
+<p>See more about this project <a href="../tag/quadro700.html">here</a>.</p>
+<h2>Mac Mini Server cluster</h2>
+<p>This project began when I found several identical 2012 Mac Mini servers on eBay. These are the original taller cases with the white acrylic tops, but they were sold with no optical drive (and no slot in the front). Instead they have two 500GB hard drives.</p>
+<p>Things I want to get running on this cluster:</p>
+<ul>
+<li>Hadoop / HDFS / YARN</li>
+<li>Apache Spark</li>
+<li>Dask</li>
+</ul>
+<p>Currently the head node for this cluster is a Raspberry Pi 3B+, configured as a dnsmasq server to bridge WiFi to a wired subnetwork for the Minis.</p>
+      </div>
+      <div class="back-to-top">
+          <a href="#top">back to top</a>
+      </div>
+    </article>
+  </div>
+<!-- end article -->
                 <footer>
                     <div class="icons">
                     </div>
