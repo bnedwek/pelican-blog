@@ -12,4 +12,4 @@ In my case I was planning to save filesystem backups to a Raspberry Pi on my loc
 
 I bumbled around with `ufsdump` and eventually found out how to send the backup to STDOUT, into `compress`, then into a file on an NFS share. However, unbeknownst to me, while messing around I used `ufsdump` without arguments which by default wants to write to a local tape drive.
 
-Fun fact: even if you don't HAVE a local tape drive (/dev/rmt/0), ufsdump will happily write a dump file to that path! So if you don't have a ton of extra space in your root slice, and you clumsily try to back up a larger partition, it will fill up your root!
+Fun fact: even if you don't HAVE a local tape drive (`/dev/rmt/0`), ufsdump will happily write a dump file to that path! So if you don't have a ton of extra space in your root slice, and you clumsily try to back up a larger partition, it will fill up your root. And once the root filesystem is full you start getting some exciting/scary error messages.

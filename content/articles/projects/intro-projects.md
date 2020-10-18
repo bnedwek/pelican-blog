@@ -5,11 +5,15 @@ Description: A little rundown of my current tinkering.
 
 Here's a little rundown of some ongoing projects I've been working on:
 
-## Sun IPX
+## Sun Sparcstation IPX
 
 I have a lot of interest Unix and non-x86 architectures so I've always been drawn to old workstations. As I've become more aware of the role Sun Microsystems played in defining the standard network stack we still use today I developed an interest in owning a SPARC machine.
 
 See more about this project [here]({tag}/sunipx).
+
+## Sun Ultra 60
+
+A couple generations newer than the IPX, this machine is a beast. Dual 450Mhz UltraSPARC processors, 2GB RAM. I have a few interesting cards to put in it which will get coverage of their own. On this I've been running Solaris 7, the first fully 64-bit version of the OS.
 
 ## Quadro 700
 
