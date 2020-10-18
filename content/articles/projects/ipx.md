@@ -7,7 +7,7 @@ Description: Setting up one of the "lunchbox" Sparcstations
 ## Some background: Why am I interested in old Sun hardware?
 
 ## The hardware I've accumulated
-- Sun IPX
+- Sun Sparcstation IPX
 - SCSI2SD
 - Sun 411 SCSI CD-ROM drive (in a Foxboro-branded enclosure)
 - Raspberry Pi 3B to provide some network services
