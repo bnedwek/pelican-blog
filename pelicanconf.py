@@ -9,8 +9,8 @@ SITEURL = ''
 PATH = 'content'
 
 ARTICLE_PATHS = ['articles',]
-ARTICLE_URL = 'articles/{slug}.html'
-ARTICLE_SAVE_AS = 'articles/{slug}.html'
+ARTICLE_URL = 'articles/{category}/{slug}.html'
+ARTICLE_SAVE_AS = 'articles/{category}/{slug}.html'
 
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
