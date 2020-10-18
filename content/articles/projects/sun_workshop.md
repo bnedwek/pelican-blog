@@ -4,7 +4,7 @@ Category: Projects
 Tags: sun, solaris
 Description: 
 
-The "try and buy" version of Sun Workshop 5.0 was included with my boxed set of Solaris 7 Server media. Thankfully, at some point Sun gave out a non-expiring demo license for these tools, which means I now have optimizing compilers and other developer tools compatible with Solaris 2.5.1, 2.6, and 7 (straddling their version number change).
+The "try and buy" version of Sun Workshop 5.0 was included with my boxed set of Solaris 7 Server media. The demo license would ordinarly expire after 30 days. Thankfully, at some later date Sun gave out a non-expiring demo license for these tools, which means I now have optimizing compilers and other developer tools compatible with Solaris 2.5.1, 2.6, and 7 (straddling their version number change).
 
 ```
                 Workshop for SPARC - all 5.0 License Information                
