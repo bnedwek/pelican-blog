@@ -28,7 +28,7 @@ See more about this project [here]({tag}quadro700).
 
 ## Mac Mini Server cluster
 
-This project began when I found several identical 2012 Mac Mini servers on eBay. These are the original taller cases with the white acrylic tops, but they were sold with no optical drive (and no slot in the front). Instead they have two 500GB hard drives.
+This project began when I found several identical 2012 Mac Mini servers on eBay. These are the original taller cases with the white acrylic tops, but they were sold with no optical drive (and no slot in the front). Instead, they have two 500GB hard drives.
 
 Things I want to get running on this cluster:
 

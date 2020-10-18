@@ -22,5 +22,5 @@ Description: Setting up one of the "lunchbox" Sparcstations
 ## Getting it booted
 
 - Netbooting SunOS 4.1.3 from a Raspberry Pi
-- Trying to rip a Solaris 7 CD (and it's wacky VTOC partitions)
+- Trying to rip a Solaris 7 CD (and it's VTOC partitions)
 - Installing Solaris 6 from CD-ROM
