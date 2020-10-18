@@ -13,7 +13,7 @@ See more about this project [here]({tag}/sunipx).
 
 ## Sun Ultra 60
 
-A couple generations newer than the IPX, this machine is a beast. Dual 450Mhz UltraSPARC processors, 2GB RAM. I have a few interesting cards to put in it which will get coverage of their own. On this I've been running Solaris 7, the first fully 64-bit version of the OS.
+A couple generations newer than the IPX, this machine is a beast. Dual 450Mhz UltraSPARC processors, 2GB RAM. I have a few interesting cards to put in it which will get coverage on their own. On this I've been running Solaris 7, the first fully 64-bit version of the OS.
 
 ## Quadro 700
 

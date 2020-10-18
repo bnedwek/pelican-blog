@@ -1,10 +1,12 @@
-Title: Installing Sun Workshop 5.0
-Date: 2020-03-13 23:38
+Title: Sun Workshop 5.0 license
+Date: 2020-10-18
 Category: Projects
 Tags: sun, solaris
-Description: 
+Description: Non-expiring licenses for Sun SPARC dev tools
 
-The "try and buy" version of Sun Workshop 5.0 was included with my boxed set of Solaris 7 Server media. The demo license would ordinarly expire after 30 days. Thankfully, at some later date Sun gave out a non-expiring demo license for these tools, which means I now have optimizing compilers and other developer tools compatible with Solaris 2.5.1, 2.6, and 7 (straddling their version number change).
+My boxed set of Solaris 7 Server media included the "try and buy" version of Sun Workshop 5.0, Sun's dev tools for SPARC. This includes an IDE, compilers (C, C++, Fortran), and some teamware tools compatible with Solaris 2.5.1, 2.6, and 7 (straddling their version number format change). The demo license would ordinarly expire after 30 days. Thankfully, at some later date, Sun gave out a non-expiring demo license for these tools. As far as I can tell Oracle isn't hosting this anywhere, but I found it on an old discussion thread and can confirm these work.
+
+I love old dev tools so I'll write more about this later. But in the meantime, here's the license info.
 
 ```
                 Workshop for SPARC - all 5.0 License Information                

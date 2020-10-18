@@ -9,8 +9,8 @@ Description: Setting up one of the "lunchbox" Sparcstations
 ## The hardware I've accumulated
 - Sun IPX
 - SCSI2SD
-- Sun 411 SCSI CD-ROM drive
-- Raspberry Pi 3B
+- Sun 411 SCSI CD-ROM drive (in a Foxboro-branded enclosure)
+- Raspberry Pi 3B to provide some network services
 
 ## About the Sun IPX
 
@@ -24,3 +24,5 @@ Description: Setting up one of the "lunchbox" Sparcstations
 - Netbooting SunOS 4.1.3 from a Raspberry Pi
 - Trying to rip a Solaris 7 CD (and it's VTOC partitions)
 - Installing Solaris 6 from CD-ROM
+
+## To do / future plans
