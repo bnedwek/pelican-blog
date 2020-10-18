@@ -4,8 +4,8 @@ branches:
   - master
 install:
 - pip install "pelican[markdown]"
-- git clone --recursive https://github.com/getpelican/pelican-themes ~/pelican-themes
-- pelican-themes --install ~/pelican-themes/brutalist
+- git clone https://github.com/mc-buckets/brutalist.git ~/brutalist
+- pelican-themes --install ~/brutalist
 script:
 - make html
 deploy:
