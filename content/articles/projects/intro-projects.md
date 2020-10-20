@@ -1,35 +1,30 @@
 Title: Ongoing projects
-Date: 2020-03-13 23:38
+Date: 2020-10-19
 Category: Projects
 Description: A little rundown of my current tinkering.
 
-Here's a little rundown of some ongoing projects I've been working on:
+To get this blog started here's a brief rundown of some ongoing projects I've been working on:
 
-## Sun IPX
+## Sun Sparcstation IPX
 
-I have a lot of interest Unix and non-x86 architectures so I've always been drawn to old workstations. As I've become more aware of the role Sun Microsystems played in defining the standard network stack we still use today I developed an interest in owning a SPARC machine.
+I picked up this tiny "lunchbox" Sparcstation because I've always had an interest in Unix workstations and non-x86 hardware. I've also developed an appreciation for the pioneering technologies Sun Microsystems invented that are still essential infrastructure today. This machine got me started playing around with SunOS 4.1.3 and later Solaris 2.6.
 
-See more about this project [here]({tag}/sunipx).
+## Sun Ultra 60
 
-## Quadro 700
+A couple generations newer than the Sparcstation IPX, this machine is a beast. Dual 450Mhz UltraSPARC II processors, 2GB RAM. I have a few interesting cards to put in it which will get coverage on their own. On this I've been running Solaris 7, the first fully 64-bit version of the OS. As with the IPX, I'll be using this to play around with software development and Unix administration, networking, etc.
 
-I remember playing on my dad's 68k Mac when I was a little kid but I didn't have any conscious nostalgia for particular aspects of the Mac SYstem 7 era.
+## Macintosh Quadra 700
 
-To get running on this Mac:
-
-- A/UX
-- A MIDI sequencer (Performer?)
-
-See more about this project [here]({tag}quadro700).
+I used a 68k Macintosh when I was a kid, though the first that was actually mine was a first generation Power Mac. The main draw of this machine is that it's one that'll run A/UX, Apple's first Unix operating system. I haven't gotten that running yet but so far I'm having fun reacquainting myself System 7.5, playing some games, and tracking down little hardware bugs.
 
 ## Mac Mini Server cluster
 
-This project began when I found several identical 2012 Mac Mini servers on eBay. These are the original taller cases with the white acrylic tops, but they were sold with no optical drive (and no slot in the front). Instead they have two 500GB hard drives.
+This project began when I found several identical 2012 Mac Mini servers on eBay. These are the original taller cases with the white acrylic tops, but they were sold with no optical drive (and no slot in the front). Instead, they have two 500GB hard drives.
+
+While comically underpowered nowadays, having a cute little cluster of x86 machines appeals to me for tinkering with various distributed analytical tools.
 
 Things I want to get running on this cluster:
 
 - Hadoop / HDFS / YARN
 - Apache Spark
 - Dask
-
-Currently the head node for this cluster is a Raspberry Pi 3B+, configured as a dnsmasq server to bridge WiFi to a wired subnetwork for the Minis.
