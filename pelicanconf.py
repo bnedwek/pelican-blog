@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Brandon Nedwek'
-SITENAME = 'Tinkering'
-SITEURL = ''
+SITENAME = 'Tech Tinkering and Other Projects'
+SITEURL = 'blog.brandonnedwek.com'
 
 PATH = 'content'
 
